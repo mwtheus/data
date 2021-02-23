@@ -24,13 +24,15 @@ something like this:
 
 ```
 requirements.txt
----
+----------------
+
 Flask==1.0.2
 ```
 
 ```
 uwsgi.ini
----
+---------
+
 [uwsgi]
 module = main
 callable = app
@@ -46,13 +48,15 @@ when some file is updated without having to restart the container.
 
 ```
 main.py
----
+-------
+
 from app import app
 ```
 
 ```
 Dockerfile
----
+----------
+
 FROM tiangolo/uwsgi-nginx-flask:python3.6-alpine3.7
 RUN apk --update add bash nano
 ENV STATIC_URL /app/static
@@ -69,7 +73,8 @@ necessary environment variables and installing the Flask version defined in
 
 ```
 start.sh
----
+--------
+
 #!/bin/bash
 
 app="docker.test"
@@ -96,7 +101,8 @@ Now, inside our app module, we have the default Flask structure.
 
 ```
 app/__init__.py
----
+---------------
+
 from flask import Flask
 app = Flask(__name__)
 from app import views
@@ -104,7 +110,8 @@ from app import views
 
 ```
 app/views.py
----
+------------
+
 from flask import render_template
 
 @app.route('/')
