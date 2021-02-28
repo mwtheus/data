@@ -22,17 +22,16 @@ something like this:
 
 ## Snippets
 
-```
-requirements.txt
-----------------
 
+##### requirements.txt
+
+```
 Flask==1.0.2
 ```
 
-```
-uwsgi.ini
----------
+##### uwsgi.ini
 
+```ini
 [uwsgi]
 module = main
 callable = app
@@ -46,17 +45,15 @@ which is the instance exported by the main application. The `master` option
 allows the application to keep running and `touch-reload` allows it to reload
 when some file is updated without having to restart the container.
 
-```
-main.py
--------
+##### main.py
 
+```python
 from app import app
 ```
 
-```
-Dockerfile
-----------
+##### Dockerfile
 
+```
 FROM tiangolo/uwsgi-nginx-flask:python3.6-alpine3.7
 RUN apk --update add bash nano
 ENV STATIC_URL /app/static
@@ -71,10 +68,9 @@ is available at [DockerHub](https://hub.docker.com/). Here, we are defining the
 necessary environment variables and installing the Flask version defined in
 `requirements.txt`.
 
-```
-start.sh
---------
+##### start.sh
 
+```bash
 #!/bin/bash
 
 app="docker.test"
@@ -93,25 +89,23 @@ my Flask app, but I didn't want to change the struture of the project yet.
 
 In case you wanna restart, you can use this command:
 
-```
+```console
 $ docker stop docker.test && docker start docker.test
 ```
 
 Now, inside our app module, we have the default Flask structure.
 
-```
-app/__init__.py
----------------
+##### app/__init__.py
 
+```python
 from flask import Flask
 app = Flask(__name__)
 from app import views
 ```
 
-```
-app/views.py
-------------
+##### app/views
 
+```python
 from flask import render_template
 
 @app.route('/')
