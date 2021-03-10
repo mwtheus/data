@@ -1,25 +1,27 @@
-Reading "Are You Stuck in the Anxiety-Distraction Feedback Loop?", when can have
-a better understanding of something.
+Reading 
+[Are You Stuck in the Anxiety-Distraction Feedback Loop?](https://hbr.org/2020/05/are-you-stuck-in-the-anxiety-distraction-feedback-loop), 
+we can have a better understanding of something.
 
-Specifically, it talks about why we crave for distractions (Instagram, YouTube),
+Specifically, it talks about why we crave for distractions (Instagram, YouTube)
 instead of doing what we really have to do. That's important and it happens to 
 me often. For example, right now I am feeling anxious, and I have a really 
 important job to finish, but I can't focus on it. Not because I don't want to, 
 but maybe because I **physically** can't.
 
 You see, I feel a really awful feeling in my stomach, and my brain is simply
-numb. Is not that I don't know how to do my work or don't know what to do. I am
-simply anxious, and it is preventing me from doing things. But it is not
+numb. It is not that I don't know how to do my work or don't know what to do... 
+I am simply anxious, and it is preventing me from doing things. But it is not
 preventing me from wanting to lurk YouTube or Reddit.
 
 That's how addictive those things can be. The algorithms, the suggestions,
-teachs our brain that it is a source of dopamine, and by seeing them, it kinda
-feels like we are doing something important - even though we are not.
+teachs our brain that these are sources of dopamine, and by seeing them, it 
+kinda feels like we are doing something important - even though we are not.
 
-Are here, the trick is exactly this: anxiety **is not** bad. It is good. It is 
+And here, the trick is exactly this: anxiety **is not** bad. It is good. It is 
 a response from our brain, showing that something is wrong, we just need to 
-redirect it to the right place: away from the stomach and into brain. Then we
-can learn that the immediate reward is not really a reward - most of the times.
+redirect it to the right place: away from the stomach and into the brain. Then 
+we can learn that the immediate reward is not really a reward - most of the 
+times.
 
 The article states that perfectly:
 
@@ -34,7 +36,7 @@ The article states that perfectly:
 > Its survival 101.
 
 Also, I know my triggers, and I need to avoid them. Finishing the job is the way
-to acheive this. But it still can put it on the side, because it's easier to go
+to acheive this, but it still can put it on the side, because it's easier to go
 numb. This is really bad, because it teaches something. And even if the lesson
 is bad, the brain can't know. And the results may only show later.
 
